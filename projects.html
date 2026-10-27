@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Works & Case Studies — VALENCE Digital Agency</title>
+  <meta name="description" content="Explore our portfolio of high-performance websites, luxury e-commerce storefronts, SaaS applications, and WordPress solutions crafted for ambitious brands.">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Selected Works & Case Studies — VALENCE Digital Agency">
+  <meta property="og:description" content="Bespoke digital products and high-impact web design case studies built by Valence.">
+  <meta property="og:image" content="assets/images/hero-showcase.jpg">
+  <meta name="theme-color" content="#1A56DB">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231A56DB'/><path d='M9 10L16 23L23 10' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER NAVIGATION ==================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Valence Studio Homepage">
+        <span class="brand-mark">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
+        <span>VALENCE</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary" id="header-cta-btn">
+          Start a Project
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-content">
+      <div class="mobile-header">
+        <div class="brand-logo">
+          <span class="brand-mark">V</span>
+          <span>VALENCE</span>
+        </div>
+        <button class="mobile-close-btn" aria-label="Close Navigation" style="font-size: 1.5rem; color: var(--text-main); padding: 0.5rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="services.html" class="mobile-nav-link">Services</a>
+        <a href="projects.html" class="mobile-nav-link active">Projects</a>
+        <a href="about.html" class="mobile-nav-link">About</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+      </nav>
+      <div style="margin-top: auto;">
+        <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+          Start a Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ==================== PORTFOLIO HERO ==================== -->
+    <section class="case-study-hero">
+      <div class="container text-center" style="max-width: 800px;">
+        <nav class="breadcrumbs" style="justify-content: center;" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span aria-current="page">Projects</span>
+        </nav>
+        <span class="eyebrow eyebrow-pill">
+          <span class="pulse-dot"></span> Selected Works & Case Studies
+        </span>
+        <h1 class="display-title" style="margin-bottom: 1.25rem;">
+          Digital Products Crafted for Maximum Impact.
+        </h1>
+        <p class="section-subtitle" style="margin: 0 auto; font-size: 1.15rem;">
+          Browse our recent projects spanning corporate platforms, bespoke e-commerce experiences, web applications, and high-performance CMS solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== FILTERABLE PORTFOLIO SHOWCASE ==================== -->
+    <section class="section">
+      <div class="container">
+        
+        <!-- Live Category Filter Buttons -->
+        <div class="portfolio-filters" role="tablist" aria-label="Filter Projects by Category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Works (6)</button>
+          <button class="filter-btn" data-filter="web-dev" role="tab" aria-selected="false">Website Development (4)</button>
+          <button class="filter-btn" data-filter="ecommerce" role="tab" aria-selected="false">E-commerce (1)</button>
+          <button class="filter-btn" data-filter="ui-ux" role="tab" aria-selected="false">UI/UX Design (4)</button>
+          <button class="filter-btn" data-filter="wordpress" role="tab" aria-selected="false">WordPress & CMS (1)</button>
+          <button class="filter-btn" data-filter="redesign" role="tab" aria-selected="false">Redesign & CRO (3)</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="portfolio-grid" id="portfolio-items-grid">
+          
+          <!-- Project 1: Aura Wealth Management -->
+          <article class="project-card" data-category="web-dev ui-ux">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">Fintech & Wealth</span>
+              <img 
+                src="assets/images/project-fintech.jpg" 
+                alt="Aura Wealth Management Web Application Dashboard Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Aura Wealth Management</h3>
+                <span class="project-industry">Fintech & Private Wealth</span>
+              </div>
+              <p class="project-desc">
+                Enterprise wealth management portal and client analytics dashboard featuring interactive portfolio graphs, multi-currency assets, and banking-grade security.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Web Application</span>
+                <span class="project-tag">Figma UI/UX</span>
+                <span class="project-tag">REST APIs</span>
+                <span class="project-tag">Data Security</span>
+              </div>
+              <a href="case-study-fintech.html" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Aude Studio Luxury Fashion -->
+          <article class="project-card" data-category="ecommerce ui-ux">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">E-commerce & Luxury</span>
+              <img 
+                src="assets/images/project-ecommerce.jpg" 
+                alt="Aude Studio Luxury Fashion Online Storefront Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Aude Sustainable Studio</h3>
+                <span class="project-industry">Luxury Fashion & Retail</span>
+              </div>
+              <p class="project-desc">
+                High-end editorial e-commerce platform with dynamic lookbooks, slide-out cart drawers, currency switching, and instant Apple Pay checkout.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">E-commerce</span>
+                <span class="project-tag">Shopify Headless</span>
+                <span class="project-tag">Stripe Checkout</span>
+                <span class="project-tag">Cart Optimization</span>
+              </div>
+              <a href="case-study-ecommerce.html" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: AetherFlow Analytics -->
+          <article class="project-card" data-category="web-dev ui-ux redesign">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">SaaS & Data</span>
+              <img 
+                src="assets/images/project-saas.jpg" 
+                alt="AetherFlow Analytics B2B SaaS Dashboard Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">AetherFlow Intelligence</h3>
+                <span class="project-industry">B2B Cloud Analytics</span>
+              </div>
+              <p class="project-desc">
+                Full product redesign and SaaS marketing engine with interactive product tours, conversion funnels, and real-time client workspace telemetry.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">SaaS Platform</span>
+                <span class="project-tag">Modern Web App</span>
+                <span class="project-tag">Conversion Rate +142%</span>
+                <span class="project-tag">Design System</span>
+              </div>
+              <a href="case-study-saas.html" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Luxe + Form Architecture -->
+          <article class="project-card" data-category="web-dev redesign">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">Architecture & Design</span>
+              <img 
+                src="assets/images/project-architect.jpg" 
+                alt="Luxe and Form Architectural Studio Portfolio Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Luxe + Form Architecture</h3>
+                <span class="project-industry">Architectural Excellence</span>
+              </div>
+              <p class="project-desc">
+                Minimalist, high-contrast digital portfolio for an award-winning architecture practice. Engineered for ultra-sharp imagery and sub-second page transitions.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Editorial Layout</span>
+                <span class="project-tag">PageSpeed 99</span>
+                <span class="project-tag">Zero Layout Shift</span>
+                <span class="project-tag">Image Optimization</span>
+              </div>
+              <a href="case-study-architect.html" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: HealWell Healthtech Platform -->
+          <article class="project-card" data-category="web-dev ui-ux">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">Healthtech & Medical</span>
+              <img 
+                src="assets/images/project-health.jpg" 
+                alt="HealWell Healthtech Patient Scheduling and Telehealth Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">HealWell Care Platform</h3>
+                <span class="project-industry">Telehealth & Clinical Tech</span>
+              </div>
+              <p class="project-desc">
+                Compliant patient appointment booking platform with provider directories, real-time schedule synchronization, and accessible telehealth patient portals.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Healthcare Platform</span>
+                <span class="project-tag">Appointment Booking</span>
+                <span class="project-tag">WCAG 2.1 AA</span>
+                <span class="project-tag">Telehealth UI</span>
+              </div>
+              <a href="project-detail.html?project=healwell" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6: Insight Corporate Pulse WordPress CMS -->
+          <article class="project-card" data-category="wordpress web-dev redesign">
+            <div class="project-media-wrap">
+              <span class="project-meta-pill">Media & Publishing</span>
+              <img 
+                src="assets/images/project-wordpress.jpg" 
+                alt="Insight Corporate Pulse WordPress Publishing Portal Mockup"
+                class="project-img"
+                width="800"
+                height="500"
+                loading="lazy"
+              >
+            </div>
+            <div class="project-content">
+              <div class="project-header-row">
+                <h3 class="project-title">Insight Corporate Pulse</h3>
+                <span class="project-industry">Global Media & Publishing</span>
+              </div>
+              <p class="project-desc">
+                High-volume digital publishing portal with custom WordPress Gutenberg blocks, automated editorial workflows, newsletter subscriptions, and multi-author taxonomy.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">WordPress Custom Theme</span>
+                <span class="project-tag">Editorial CMS</span>
+                <span class="project-tag">High Concurrency</span>
+                <span class="project-tag">Gutenberg Blocks</span>
+              </div>
+              <a href="project-detail.html?project=insight" class="project-link">
+                View Case Study
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CALL TO ACTION ==================== -->
+    <section class="section section-dark">
+      <div class="container text-center" style="max-width: 740px;">
+        <span class="eyebrow eyebrow-dark">Start a Collaboration</span>
+        <h2 class="section-title">Have an Ambitious Project in the Pipeline?</h2>
+        <p class="section-subtitle" style="margin: 0 auto 2.5rem;">
+          Whether you need an award-winning brand website, an e-commerce overhaul, or custom web application engineering, we are ready to bring your vision to life.
+        </p>
+        <a href="contact.html" class="btn btn-primary" style="font-size: 1.05rem; padding: 1rem 2.25rem;">
+          Start a Project Inquiry
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div class="brand-logo" style="color: #fff; margin-bottom: 1rem;">
+            <span class="brand-mark">V</span>
+            <span>VALENCE</span>
+          </div>
+          <p>
+            An independent digital agency crafting high-performance websites, e-commerce systems, and custom web applications that empower ambitious businesses.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="services.html" class="footer-link">Services & Capabilities</a></li>
+            <li><a href="projects.html" class="footer-link">Case Studies & Portfolio</a></li>
+            <li><a href="about.html" class="footer-link">About the Studio</a></li>
+            <li><a href="contact.html" class="footer-link">Start a Project</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links-list">
+            <li><a href="services.html#service-webdev" class="footer-link">Website Development</a></li>
+            <li><a href="services.html#service-ecommerce" class="footer-link">E-commerce Stores</a></li>
+            <li><a href="services.html#service-wordpress" class="footer-link">WordPress & Elementor</a></li>
+            <li><a href="services.html#service-uiux" class="footer-link">UI/UX Design Systems</a></li>
+            <li><a href="services.html#service-redesign" class="footer-link">Website Redesign</a></li>
+            <li><a href="services.html#service-maintenance" class="footer-link">Maintenance SLAs</a></li>
+            <li><a href="services.html#service-seo" class="footer-link">SEO & Speed Optimization</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Contact & Studio</div>
+          <div style="color: var(--text-dark-muted); font-size: 0.9375rem; line-height: 1.6;">
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Direct:</strong> hello@valence.studio</p>
+            <p style="margin-bottom: 0.5rem;"><strong style="color: #fff;">Hours:</strong> Mon – Fri, 9:00 – 18:00 EST</p>
+            <p style="margin-bottom: 1rem;"><strong style="color: #fff;">Office:</strong> 250 Hudson St, New York, NY</p>
+            <span class="eyebrow eyebrow-dark">
+              <span class="pulse-dot"></span> Available for Q4 & Q1 Projects
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          &copy; 2026 Valence Digital Agency. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="about.html" class="footer-link">Terms & Code Standards</a>
+          <a href="contact.html" class="footer-link">Privacy & Confidentiality</a>
+          <a href="index.html" class="footer-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

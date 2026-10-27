@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valence.studio/sitemap.xml
